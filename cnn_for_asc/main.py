@@ -94,7 +94,7 @@ print('Loading Data and Feature Pre-processing. ')
 num_of_classes = config['class_spec']['asc2019']['number_of_classes']
 label_dict=copy.copy(config['class_spec']['asc2019']['index_assignment'])
 
-development_data_path = '/home/yzwu/DCASE2019_task1a/features/development/logmel-128-HF11LF51'
+development_data_path = '/home/yzwu/DCASE2019_task1a/features/development/logmel-128-S'
 train_label_doc = '/home/yzwu/DCASE2019_task1a/datasets/TAU-urban-acoustic-scenes-2019-development/evaluation_setup_compatibleFormat/fold1_train.csv' # each row is like [filename,label,location,device_id]
 test_label_doc = '/home/yzwu/DCASE2019_task1a/datasets/TAU-urban-acoustic-scenes-2019-development/evaluation_setup_compatibleFormat/fold1_evaluate.csv' # each row is like [filename,label,location,device_id]
 file_extension = 'logmel'
