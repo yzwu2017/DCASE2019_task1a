@@ -40,7 +40,7 @@ print('Loading Data and Feature Pre-processing. ')
 num_of_classes = config['class_spec']['asc2019']['number_of_classes']
 label_dict=copy.copy(config['class_spec']['asc2019']['index_assignment'])
 
-evaluation_data_path = '/home/yzwu/DCASE2019_task1a/features/leaderboard/logmel-128-HF11LF51'
+evaluation_data_path = '/home/yzwu/DCASE2019_task1a/features/leaderboard/logmel-128-S'
 evaluation_setup_file = '/home/yzwu/DCASE2019_task1a/datasets/TAU-urban-acoustic-scenes-2019-leaderboard/evaluation_setup/test.csv'
 file_extension = 'logmel'
 FEATURE_DIMENSION = 128
