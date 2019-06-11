@@ -25,8 +25,8 @@ N_CORES = 4
 config = {	'save_spectrograms': False, # If True, the extracted features will be saved as images for visualization purpose.
 			'overwrite': False,  # Overwrite flag: Whether overwritting the existing feature file or not.
 			'raw_data_folder': '/home/yzwu/DCASE2019_task1a/datasets/TAU-urban-acoustic-scenes-2019-evaluation/audio',
-			'output_feature_folder': '/home/yzwu/DCASE2019_task1a/features/evaluation/logmel-128-HF11LF51',
-			'spectrograms_folder': '/home/yzwu/DCASE2019_task1a/features/evaluation/logmel-128-HF11LF51-imgs',
+			'output_feature_folder': '/home/yzwu/DCASE2019_task1a/features/evaluation/logmel-128-S',
+			'spectrograms_folder': '/home/yzwu/DCASE2019_task1a/features/evaluation/logmel-128-S-imgs',
 			'SR': 48000,                      # The sampling frequency for feature extraction.
 			'win_length_in_seconds': 0.025,   # the window length (in second). Default: 0.025
 			'hop_length_in_seconds': 0.010,   # the hop length (in second). Default: 0.010
