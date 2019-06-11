@@ -1,0 +1,17 @@
+# ==========================================================
+# Class specification
+# ==========================================================
+class_spec:
+    asc2019:
+        number_of_classes: 10
+        index_assignment:
+            airport: 0
+            shopping_mall: 1
+            metro_station: 2
+            street_pedestrian: 3
+            public_square: 4
+            street_traffic: 5
+            tram: 6
+            bus: 7
+            metro: 8
+            park: 9
