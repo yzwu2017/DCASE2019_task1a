@@ -9,7 +9,7 @@ The proposed system is based on an **AlexNet-like model** with **stratified log-
 
 # How to Use
 
-There are two steps to run the whole system. First thing is to do audio feature extraction, i.e., extract log-Mel feature for each audio signal and then decompose it into component images. Then, we train and test the CNN model based on the extracted features.
+There are two steps to run the whole system. First thing is to do audio feature extraction, i.e., extract log-Mel feature for each audio signal and then decompose it into 3 component images. Then, we train and test the CNN model based on the extracted features.
 
 ## Audio Feature Extraction
 
