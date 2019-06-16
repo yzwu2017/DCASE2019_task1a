@@ -40,5 +40,5 @@ Then run the script by
 ```python
 python main.py
 ```
-After the training and testing are completed, a result folder named "results-logmel128S-AlexNetS-Mixup-20eps" is generated. Check for model accuracy, confusion matrix and learning curve there. The model I trained with the scripts has an accuracy of **76.6%**, and the confusion matrix is as follows:
+After the training and testing are completed, a result folder named "results-logmel128S-AlexNetS-Mixup-20eps" is generated. Check for model accuracy, confusion matrix and learning curve there. A single model that I trained with the scripts has an accuracy of **76.6%** on development dataset, and the confusion matrix is as follows:
 ![](cnf_mtx.png)
