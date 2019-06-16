@@ -22,7 +22,7 @@ import imageio
 
 N_CORES = 4
 
-config = {	'save_spectrograms': False, # If True, the extracted features will be saved as images for visualization purpose.
+config = {	'save_spectrograms': True, # If True, the extracted features will be saved as images for visualization purpose.
 			'overwrite': False,  # Overwrite flag: Whether overwritting the existing feature file or not.
 			'raw_data_folder': '/home/yzwu/DCASE2019_task1a/datasets/TAU-urban-acoustic-scenes-2019-evaluation/audio',
 			'output_feature_folder': '/home/yzwu/DCASE2019_task1a/features/evaluation/logmel-128-S',
