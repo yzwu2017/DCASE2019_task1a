@@ -5,7 +5,7 @@ This repository includes the source code of my submitted Acoustic Scene Classifi
 The proposed system is based on an **AlexNet-like model** with **stratified log-Mel features**. "stratify" means that a given log-MEL image is decomposed as the combination of a number of component images, which correspond to sound patterns of different nature. Then each component image is modeled independently by a portion of convolution kernels in the CNN model.
 ![](system_framework.png)
 
-~~If you would like to know more details about my ASC system, you can read my technical report here~~ (upcoming). 
+If you would like to know more details about my ASC system, you can read my technical report [here](http://dcase.community/documents/challenge2019/technical_reports/DCASE2019_Wu_24.pdf). 
 
 # How to Use
 
