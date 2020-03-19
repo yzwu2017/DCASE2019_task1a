@@ -13,7 +13,7 @@ There are two steps to run the system. First thing is to do audio feature extrac
 
 
 ## Pre-requisite:
-The libraries' versions for running the code are listed below. However, the code should be able to run with libraries of newer versions. 
+The code is based on Python 3.5 and uses PyTorch 1.0.0. The libraries' versions for running the code are listed below. However, the code should be able to run with libraries of newer versions. 
 
 - numpy.__version__=='1.14.0'
 - soundfile.__version__=='0.9.0'
@@ -25,7 +25,7 @@ The libraries' versions for running the code are listed below. However, the code
 - sklearn.__version__=='0.18.2'
 - matplotlib.__version__=='2.0.2'
 
-Besides, I ran the code on a computer with 128GB RAM. In my code, I simply load the entire dataset into the memory. If your RAM size is small (e.g. 16GB), maybe you will need to optimize the feature loading step, i.e., loading data batch by batch.
+I ran the code on a computer with GTX 1080Ti GPU and 128GB RAM. In my code, I simply load the entire dataset into the memory. If your RAM size is small (e.g. 16GB), maybe you will need to optimize the feature loading step, i.e., loading data batch by batch.
 
 ## Audio Feature Extraction
 
