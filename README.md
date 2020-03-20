@@ -25,7 +25,7 @@ The code is based on Python 3.5 and uses PyTorch 1.0.0. The libraries' versions 
 - sklearn.__version__=='0.18.2'
 - matplotlib.__version__=='2.0.2'
 
-I ran the code on a computer with GTX 1080Ti GPU and 128GB RAM. In my code, I simply load the entire dataset into the memory. If your RAM size is small (e.g. 16GB), maybe you will need to optimize the feature loading step, i.e., loading data batch by batch.
+I ran the code on a computer with 128GB RAM. In my code, I simply load the entire dataset into the memory. If your RAM size is small (e.g. 16GB), maybe you will need to optimize the feature loading step, i.e., loading data batch by batch.
 
 ## Audio Feature Extraction
 
